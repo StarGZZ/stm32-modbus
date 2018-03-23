@@ -1,0 +1,1269 @@
+Dependencies for Project 'mod', Target 'mod': (DO NOT MODIFY !)
+F (../Src/system_stm32f0xx.c)(0x5921B5EB)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\system_stm32f0xx.o --omf_browse mod\system_stm32f0xx.crf --depend mod\system_stm32f0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Src/stm32f0xx_it.c)(0x59831ABA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_it.o --omf_browse mod\stm32f0xx_it.crf --depend mod\stm32f0xx_it.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_it.h)(0x59796313)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (../Src/stm32f0xx_hal_msp.c)(0x5981760F)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_msp.o --omf_browse mod\stm32f0xx_hal_msp.crf --depend mod\stm32f0xx_hal_msp.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Src/main.c)(0x5AB45E77)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\main.o --omf_browse mod\main.crf --depend mod\main.d)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_tim.o --omf_browse mod\stm32f0xx_hal_tim.crf --depend mod\stm32f0xx_hal_tim.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x5921B5F4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal.o --omf_browse mod\stm32f0xx_hal.crf --depend mod\stm32f0xx_hal.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c)(0x5921B5F6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_uart.o --omf_browse mod\stm32f0xx_hal_uart.crf --depend mod\stm32f0xx_hal_uart.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_flash_ex.o --omf_browse mod\stm32f0xx_hal_flash_ex.crf --depend mod\stm32f0xx_hal_flash_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_rcc.o --omf_browse mod\stm32f0xx_hal_rcc.crf --depend mod\stm32f0xx_hal_rcc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_cortex.o --omf_browse mod\stm32f0xx_hal_cortex.crf --depend mod\stm32f0xx_hal_cortex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_flash.o --omf_browse mod\stm32f0xx_hal_flash.crf --depend mod\stm32f0xx_hal_flash.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x5921B5F6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_tim_ex.o --omf_browse mod\stm32f0xx_hal_tim_ex.crf --depend mod\stm32f0xx_hal_tim_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_pwr_ex.o --omf_browse mod\stm32f0xx_hal_pwr_ex.crf --depend mod\stm32f0xx_hal_pwr_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_i2c.o --omf_browse mod\stm32f0xx_hal_i2c.crf --depend mod\stm32f0xx_hal_i2c.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_i2c_ex.o --omf_browse mod\stm32f0xx_hal_i2c_ex.crf --depend mod\stm32f0xx_hal_i2c_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_dma.o --omf_browse mod\stm32f0xx_hal_dma.crf --depend mod\stm32f0xx_hal_dma.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c)(0x5921B5F6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_uart_ex.o --omf_browse mod\stm32f0xx_hal_uart_ex.crf --depend mod\stm32f0xx_hal_uart_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_pwr.o --omf_browse mod\stm32f0xx_hal_pwr.crf --depend mod\stm32f0xx_hal_pwr.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_rcc_ex.o --omf_browse mod\stm32f0xx_hal_rcc_ex.crf --depend mod\stm32f0xx_hal_rcc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x5921B5F5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\stm32f0xx_hal_gpio.o --omf_browse mod\stm32f0xx_hal_gpio.crf --depend mod\stm32f0xx_hal_gpio.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (startup_stm32f030x8.s)(0x59796319)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "STM32F030x8 SETA 1"--list startup_stm32f030x8.lst --xref -o mod\startup_stm32f030x8.o --depend mod\startup_stm32f030x8.d)
+F (..\modbus\mb.c)(0x4C0B5440)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mb.o --omf_browse mod\mb.crf --depend mod\mb.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbfunc.h)(0x45783CFA)
+I (..\modbus\rtu\mbrtu.h)(0x5981A734)
+I (..\modbus\ascii\mbascii.h)(0x45783CFA)
+F (..\modbus\ascii\mbascii.c)(0x59816DFA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbascii.o --omf_browse mod\mbascii.crf --depend mod\mbascii.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+I (..\modbus\ascii\mbascii.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\rtu\mbcrc.h)(0x45783CFA)
+F (..\modbus\functions\mbfunccoils.c)(0x45D89124)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbfunccoils.o --omf_browse mod\mbfunccoils.crf --depend mod\mbfunccoils.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncdiag.c)(0x45783CFA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbfuncdiag.o --omf_browse mod\mbfuncdiag.crf --depend mod\mbfuncdiag.d)
+F (..\modbus\functions\mbfuncdisc.c)(0x45D89152)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbfuncdisc.o --omf_browse mod\mbfuncdisc.crf --depend mod\mbfuncdisc.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncholding.c)(0x45D89166)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbfuncholding.o --omf_browse mod\mbfuncholding.crf --depend mod\mbfuncholding.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncinput.c)(0x46E767FC)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbfuncinput.o --omf_browse mod\mbfuncinput.crf --depend mod\mbfuncinput.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncother.c)(0x45783CFA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbfuncother.o --omf_browse mod\mbfuncother.crf --depend mod\mbfuncother.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbutils.c)(0x45D89194)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbutils.o --omf_browse mod\mbutils.crf --depend mod\mbutils.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (..\modbus\rtu\mbcrc.c)(0x45D891E4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbcrc.o --omf_browse mod\mbcrc.crf --depend mod\mbcrc.d)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+F (..\modbus\rtu\mbrtu.c)(0x5982A052)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbrtu.o --omf_browse mod\mbrtu.crf --depend mod\mbrtu.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\rtu\mbrtu.h)(0x5981A734)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\rtu\mbcrc.h)(0x45783CFA)
+F (..\modbus\tcp\mbtcp.c)(0x45783CFA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\mbtcp.o --omf_browse mod\mbtcp.crf --depend mod\mbtcp.d)
+I (E:\MDK_5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+I (..\modbus\tcp\mbtcp.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+F (..\port\portevent.c)(0x59829FBB)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\portevent.o --omf_browse mod\portevent.crf --depend mod\portevent.d)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+F (..\port\portserial.c)(0x5AB45B4C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\portserial.o --omf_browse mod\portserial.crf --depend mod\portserial.d)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+F (..\port\porttimer.c)(0x5AB45C69)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\porttimer.o --omf_browse mod\porttimer.crf --depend mod\porttimer.d)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (..\port\port.c)(0x5AB45DE2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\modbus -I..\modbus\include -I..\modbus\ascii -I..\modbus\rtu -I..\modbus\tcp -I..\MDK-ARM -I..\port --C99-I F:\项目\MOD_led\Modbus\尝试程序\mod-HAL\MDK-ARM\RTE-I E:\MDK_5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I E:\MDK_5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F030x8 -DUSE_HAL_DRIVER -DSTM32F030x8-o mod\port.o --omf_browse mod\port.crf --depend mod\port.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5921B5EB)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5921B5F3)
+I (E:\MDK_5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5921B5F3)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5921B5EB)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5921B5F4)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59796314)
+I (../Inc/main.h)(0x597AB707)
+I (E:\MDK_5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5921B5F4)
+I (E:\MDK_5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5921B5F4)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5921B5F4)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\port\port.h)(0x598319DE)
+I (E:\MDK_5\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (E:\MDK_5\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (..\modbus\include\mbport.h)(0x59817F1E)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbutils.h)(0x45783CFA)

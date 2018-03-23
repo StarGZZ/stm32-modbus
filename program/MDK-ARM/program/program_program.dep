@@ -1,0 +1,1076 @@
+Dependencies for Project 'program', Target 'program': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x5AB47666)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o program\startup_stm32f103xb.o --depend program\startup_stm32f103xb.d)
+F (..\modbus\ascii\mbascii.c)(0x59816DFA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbascii.o --omf_browse program\mbascii.crf --depend program\mbascii.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+I (..\modbus\ascii\mbascii.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\rtu\mbcrc.h)(0x45783CFA)
+F (..\modbus\functions\mbfunccoils.c)(0x45D89124)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbfunccoils.o --omf_browse program\mbfunccoils.crf --depend program\mbfunccoils.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncdiag.c)(0x45783CFA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbfuncdiag.o --omf_browse program\mbfuncdiag.crf --depend program\mbfuncdiag.d)
+F (..\modbus\functions\mbfuncdisc.c)(0x45D89152)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbfuncdisc.o --omf_browse program\mbfuncdisc.crf --depend program\mbfuncdisc.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncholding.c)(0x45D89166)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbfuncholding.o --omf_browse program\mbfuncholding.crf --depend program\mbfuncholding.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncinput.c)(0x46E767FC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbfuncinput.o --omf_browse program\mbfuncinput.crf --depend program\mbfuncinput.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\functions\mbfuncother.c)(0x45783CFA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbfuncother.o --omf_browse program\mbfuncother.crf --depend program\mbfuncother.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+F (..\modbus\rtu\mbcrc.c)(0x45D891E4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbcrc.o --omf_browse program\mbcrc.crf --depend program\mbcrc.d)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+F (..\modbus\functions\mbutils.c)(0x45D89194)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbutils.o --omf_browse program\mbutils.crf --depend program\mbutils.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (..\modbus\rtu\mbrtu.c)(0x5982A052)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbrtu.o --omf_browse program\mbrtu.crf --depend program\mbrtu.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\rtu\mbrtu.h)(0x5981A734)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\rtu\mbcrc.h)(0x45783CFA)
+F (..\modbus\tcp\mbtcp.c)(0x45783CFA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mbtcp.o --omf_browse program\mbtcp.crf --depend program\mbtcp.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+I (..\modbus\tcp\mbtcp.h)(0x45783CFA)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+F (..\modbus\mb.c)(0x4C0B5440)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\mb.o --omf_browse program\mb.crf --depend program\mb.d)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbconfig.h)(0x4C0B5440)
+I (..\modbus\include\mbframe.h)(0x45783CFA)
+I (..\modbus\include\mbfunc.h)(0x45783CFA)
+I (..\modbus\rtu\mbrtu.h)(0x5981A734)
+I (..\modbus\ascii\mbascii.h)(0x45783CFA)
+F (..\port\port.c)(0x5AB47AE1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\port_1.o --omf_browse program\port_1.crf --depend program\port_1.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (..\modbus\include\mbutils.h)(0x45783CFA)
+F (..\port\portevent.c)(0x59829FBB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\portevent.o --omf_browse program\portevent.crf --depend program\portevent.d)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (..\port\portserial.c)(0x5AB46C59)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\portserial.o --omf_browse program\portserial.crf --depend program\portserial.d)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (../Inc/usart.h)(0x5AB47663)
+F (..\port\porttimer.c)(0x5AB47799)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\porttimer.o --omf_browse program\porttimer.crf --depend program\porttimer.d)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5AB3852F)
+I (../Inc/tim.h)(0x5AB47663)
+F (../Src/stm32f1xx_it.c)(0x5AB47663)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_it.o --omf_browse program\stm32f1xx_it.crf --depend program\stm32f1xx_it.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_it.h)(0x5AB47664)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (../Src/gpio.c)(0x5AB47662)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\gpio.o --omf_browse program\gpio.crf --depend program\gpio.d)
+I (../Inc/gpio.h)(0x5AB47662)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Src/main.c)(0x5AB47B2F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\main.o --omf_browse program\main.crf --depend program\main.d)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (../Inc/tim.h)(0x5AB47663)
+I (../Inc/usart.h)(0x5AB47663)
+I (../Inc/gpio.h)(0x5AB47662)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\modbus\include\mb.h)(0x45783CFA)
+I (..\port\port.h)(0x5AB47869)
+I (D:\KEIL_MDK\ARM\ARMCC\include\assert.h)(0x54C245B8)
+I (D:\KEIL_MDK\ARM\ARMCC\include\inttypes.h)(0x54C245B8)
+I (..\modbus\include\mbport.h)(0x5AB464ED)
+I (..\modbus\include\mbproto.h)(0x45783CFA)
+F (../Src/stm32f1xx_hal_msp.c)(0x5AB47664)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_msp.o --omf_browse program\stm32f1xx_hal_msp.crf --depend program\stm32f1xx_hal_msp.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Src/usart.c)(0x5AB47B76)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\usart.o --omf_browse program\usart.crf --depend program\usart.d)
+I (../Inc/usart.h)(0x5AB47663)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+I (../Inc/gpio.h)(0x5AB47662)
+F (../Src/tim.c)(0x5AB47663)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\tim.o --omf_browse program\tim.crf --depend program\tim.d)
+I (../Inc/tim.h)(0x5AB47663)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (..//Src/system_stm32f1xx.c)(0x5AB384EE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\system_stm32f1xx.o --omf_browse program\system_stm32f1xx.crf --depend program\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_dma.o --omf_browse program\stm32f1xx_hal_dma.crf --depend program\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_rcc_ex.o --omf_browse program\stm32f1xx_hal_rcc_ex.crf --depend program\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_tim.o --omf_browse program\stm32f1xx_hal_tim.crf --depend program\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_flash_ex.o --omf_browse program\stm32f1xx_hal_flash_ex.crf --depend program\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal.o --omf_browse program\stm32f1xx_hal.crf --depend program\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_gpio_ex.o --omf_browse program\stm32f1xx_hal_gpio_ex.crf --depend program\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_gpio.o --omf_browse program\stm32f1xx_hal_gpio.crf --depend program\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_tim_ex.o --omf_browse program\stm32f1xx_hal_tim_ex.crf --depend program\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_cortex.o --omf_browse program\stm32f1xx_hal_cortex.crf --depend program\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_flash.o --omf_browse program\stm32f1xx_hal_flash.crf --depend program\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_rcc.o --omf_browse program\stm32f1xx_hal_rcc.crf --depend program\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_pwr.o --omf_browse program\stm32f1xx_hal_pwr.crf --depend program\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x5AB3852F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\modbus\ascii -I..\modbus\functions -I..\modbus\include -I..\modbus\rtu -I..\modbus\tcp -I..\port-I C:\Users\Administrator\Desktop\Modbus同事版本修改版\program\MDK-ARM\RTE-I D:\KEIL_MDK\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I D:\KEIL_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o program\stm32f1xx_hal_uart.o --omf_browse program\stm32f1xx_hal_uart.crf --depend program\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x5AB3852F)
+I (../Inc/stm32f1xx_hal_conf.h)(0x5AB47664)
+I (../Inc/main.h)(0x5AB47664)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x5AB3852F)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x5AB384ED)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x5AB384FB)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5AB384FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x5AB384ED)
+I (D:\KEIL_MDK\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x5AB3852F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x5AB3852F)
